@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    background-color: aquamarine;
+    min-height: 380px;
+    line-height: 380px;
+
+}
