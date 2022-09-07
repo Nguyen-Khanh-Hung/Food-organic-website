@@ -8,10 +8,28 @@
     .nav-right{
         display: none;
     }
+    .dishes-item{
+        border-right: unset;
+    }
+    .content_about-item {
+       top: unset;
+    }
+    .content-mb-tablet{
+        margin-top: 355px!important;
+    }
 }
 /* Mobile */
 @media screen and (max-width: 767px){
     .nav-right{
         display: none;
+    }
+    .dishes-item{
+        border-right: unset;
+    }
+    .content_about-item {
+        top: unset;
+     }
+     .content-mb-tablet{
+        margin-top: 355px!important;
     }
 }
