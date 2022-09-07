@@ -34,8 +34,12 @@ header{
     color: var(--white-color);
     text-transform: uppercase;
 }
+.header_responsive-bars i{
+    font-size: 2rem;
+    color:#fff
+}
 .slider{
-    padding-top: 100px;
+    padding-top: 85px;
     max-width: 100%;
     width: 1600px;
     margin: 0 auto;
@@ -112,11 +116,10 @@ header{
 }
 .content_about-item .btn-about{
     margin-top: 40px;
-    
 }
 
 .content_menu{
-    margin: 100px 0;
+    margin: 100px 12px;
     
 }
 .content_menu-heading{

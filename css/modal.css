@@ -1,0 +1,45 @@
+.modal-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #222;
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    z-index: 100000;
+    display: none;
+}
+.modal-menu.active{
+    display: block;
+}
+.menu-list{
+    padding: 20px 30px 0 30px;
+}
+.menu-item{
+    color: #e1e1e1;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid;
+}
+.menu-close{
+    top: 20px;
+    right: 20px;;
+    color: #e1e1e1;
+}
+.menu-close i{
+    font-size: 2rem;
+}
+.modal_overlay{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.05);
+    width: 100%;
+    height: 100%;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+.modal_overlay.active{
+    display: block;
+}
