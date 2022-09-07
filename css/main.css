@@ -35,7 +35,8 @@ header{
     text-transform: uppercase;
 }
 .header_responsive-bars i{
-    font-size: 2rem;
+    cursor: pointer;
+    font-size: 2.4rem;
     color:#fff
 }
 .slider{

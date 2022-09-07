@@ -19,8 +19,25 @@
     .content-mb-tablet{
         margin-top: 355px!important;
     }
+    .slider_text h1 {
+        font-size: 3.6rem;
+    }
     .slider_text h2 {
-        font-size: 2rem;
+        font-size: 2.6rem;
+    }
+    .slider_text {
+        top: 45%;
+        left: 10%;
+    }
+    .nav-outside{
+        display: none;
+    }
+    .nav-logo img {
+        width: 100px;
+        max-width: unset;
+    }
+    .nav-logo{
+        margin-left: 20px;
     }
 }
 /* Mobile */
@@ -56,5 +73,11 @@
     }
     .nav-outside{
         display: none;
+    }
+    .header_responsive-bars{
+        margin-right: 20px;
+    }
+    .nav-logo{
+        margin-left: 20px;
     }
 }

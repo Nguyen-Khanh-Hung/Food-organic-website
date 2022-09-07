@@ -26,6 +26,7 @@
     top: 20px;
     right: 20px;;
     color: #e1e1e1;
+    cursor: pointer;
 }
 .menu-close i{
     font-size: 2rem;
